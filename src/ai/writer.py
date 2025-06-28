@@ -20,7 +20,7 @@ class AIWriter:
         """
         self.model = model or settings.DEFAULT_AI_MODEL
         # Temporarily use hardcoded API key for testing
-        self.api_key = "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"
+        self.api_key = "api_key"
         self.base_url = "https://openrouter.ai/api/v1"
         
         logger.info(f"Initialized AIWriter with model: {self.model}")
